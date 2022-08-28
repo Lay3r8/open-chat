@@ -1,0 +1,32 @@
+{
+  "name": "chat-client",
+  "private": true,
+  "description": "Open chat frontend - This was made after this nice tutorial -> https://dev.to/novu/building-a-chat-app-with-socketio-and-react-2edj",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@types/bootstrap": "^5.2.3",
+    "@types/react-bootstrap": "^0.32.30",
+    "@types/uuid": "^8.3.4",
+    "bootstrap": "^5.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "socket.io-client": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
